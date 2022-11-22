@@ -417,4 +417,54 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
+formatter.scenario({
+  "line": 65,
+  "name": "Validate a reports",
+  "description": "",
+  "id": "crm-pro-application-testing;validate-a-reports",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 64,
+      "name": "@End2EndTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 66,
+  "name": "This is a report test",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefination.this_is_a_report_test()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 69,
+  "name": "Application logout",
+  "description": "",
+  "id": "crm-pro-application-testing;application-logout",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 68,
+      "name": "@End2EndTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 70,
+  "name": "This is a logout test",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefination.this_is_a_logout_test()"
+});
+formatter.result({
+  "status": "skipped"
+});
 });

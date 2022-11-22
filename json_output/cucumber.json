@@ -436,6 +436,60 @@
             "name": "@End2EndTest"
           }
         ]
+      },
+      {
+        "line": 65,
+        "name": "Validate a reports",
+        "description": "",
+        "id": "crm-pro-application-testing;validate-a-reports",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "This is a report test",
+            "match": {
+              "location": "TaggingStepDefination.this_is_a_report_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 64,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "Application logout",
+        "description": "",
+        "id": "crm-pro-application-testing;application-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "This is a logout test",
+            "match": {
+              "location": "TaggingStepDefination.this_is_a_logout_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 68,
+            "name": "@End2EndTest"
+          }
+        ]
       }
     ],
     "name": "CRM PRO application testing",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="0">
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="17" time="0">
     <testcase classname="CRM PRO application testing" name="Login with Incorrect username and password" time="0">
         <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is valid login test..............................................undefined
 ]]></failure>
@@ -58,6 +58,14 @@
     </testcase>
     <testcase classname="CRM PRO application testing" name="Search a forms" time="0">
         <system-out><![CDATA[Given This is a search forms test...........................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="CRM PRO application testing" name="Validate a reports" time="0">
+        <system-out><![CDATA[Given This is a report test.................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="CRM PRO application testing" name="Application logout" time="0">
+        <system-out><![CDATA[Given This is a logout test.................................................skipped
 ]]></system-out>
     </testcase>
 </testsuite>
